@@ -1,0 +1,83 @@
+/* —‰ê “„Ì‰Â ⁄„Ê„Ì */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* «” «Ì· Âœ— */
+header {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* ÿ—«ÕÌ »Œ‘ùÂ«Ì «’·Ì */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.box h2 {
+    font-size: 2em;
+    color: #00796b;
+}
+
+.box p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
+
+/* «” «Ì· ›Ê — */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
